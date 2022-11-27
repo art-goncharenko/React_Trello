@@ -1,6 +1,6 @@
 import {Avatar} from "../Avatar/Avatar";
 
-export const AsignedToTask = ({asignedTo}:{asignedTo:string}) => {
+export const AsignedToTask = () => {
     return (
         <div className="flex flex-row justify-start ml-1">
             <Avatar initials="Al"/>
